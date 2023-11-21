@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Sistema de Fiscalização de Entulho</string>
+
+    <string name="cidadao">Cidadão</string>
+    <string name="agente">Agente Fiscal</string>
+    <string name="admin">Admininstrador</string>
+
+    <string name="txtusuario">Usuário</string>
+    <string name="txtsenha">Senha</string>
+
+    <string name="em_branco"></string>
+
+    <string name="link_redefinir">Esqueci a Senha</string>
+    <string name="cadastrar">Já tem cadastro?Cadastrar</string>
+
+    <string name="btLogar">Logar</string>
+    <string name="btBanco">Banco</string>
+
+    <string name="usuario"></string>
+    <string name="senha"></string>
+
+
+    <string name="titulo">Sistema de Fiscalização de Entulho</string>
+    <string name="subTitulo">Cadastro Cidadão</string>
+    <string name="subTitulo2">Cadastrar Login</string>
+    <string name="textViewCid">Nome :</string>
+    <string name="textViewCpf">CPF :</string>
+    <string name="nome"></string>
+    <string name="cpf"></string>
+    <string name="radioF">Feminino</string>
+    <string name="radioM">Masculino</string>
+    <string name="textViewLogra">Logradouro :</string>
+    <string name="logradouro"></string>
+    <string name="textViewCom">Complemento :</string>
+    <string name="textViewCep">CEP :</string>
+    <string name="textViewLogin">Login :</string>
+    <string name="textViewPass">Senha :</string>
+    <string name="textViewN">Nº :</string>
+    <string name="textViewSexo">Sexo :</string>
+    <string name="textViewEstado">Estado :</string>
+    <string name="estado"></string>
+    <string name="textViewCidade">Cidade :</string>
+    <string name="textViewBairro">Bairro :</string>
+    <string name="bairro"></string>
+    <string name="btCadastrar">Cadastrar</string>
+    <string name="btVoltar">Voltar</string>
+    <string name="numero"></string>
+
+    <string name="subTitulo3">Perfil do Cidadão</string>
+    <string name="btEditar">Editar</string>
+    <string name="btExcluir">Excluir</string>
+    <string name="sexo"></string>
+
+    <string name="subTitulo4">Alterar Perfil do Cidadão</string>
+    <string name="btSalvar">Salvar</string>
+    <string name="subTitulo5">SUA HOME PAGER</string>
+
+    <string name="item_perfil">Perfil Cidadão</string>
+    <string name="item_lista">Lista</string>
+
+    <string name="subTitulo6">Lista de Cidadões</string>
+
+    <string name="nomeLista">Nome :</string>
+    <string name="cpfLista">CPF :</string>
+    <string name="sexoLista">Sexo :</string>
+    <string name="loginLista">Login :</string>
+    <string name="senhaLista">Senha :</string>
+    <string name="idCidadaoLista">Id :</string>
+
+
+</resources>

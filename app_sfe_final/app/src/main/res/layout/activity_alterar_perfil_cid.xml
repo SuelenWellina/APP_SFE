@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#007a37">
+
+
+    <View
+        android:id="@+id/fundo_cadastroCid"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/fundo_branco"
+        android:elevation="2dp" />
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="115dp"
+        android:contentDescription="Imglogo"
+        android:elevation="2dp"
+        app:srcCompat="@drawable/logo_sfe3" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:text="@string/titulo"
+        android:textColor="#ffc107"
+        tools:ignore="TextContrastCheck" />
+
+    <LinearLayout
+        android:id="@+id/layout_btlogar"
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="613dp"
+        android:layout_marginEnd="14dp"
+        android:elevation="2dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btEditar"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="0dp"
+            android:elevation="2dp"
+            android:insetLeft="0dp"
+            android:insetRight="10dp"
+            android:text="@string/btSalvar"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="#007a37"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btVoltar"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="0dp"
+            android:elevation="2dp"
+            android:insetLeft="10dp"
+            android:text="@string/btVoltar"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="#007a37"
+
+            tools:ignore="TextContrastCheck" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/subTitulo6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="122dp"
+        android:elevation="2dp"
+        android:text="@string/subTitulo4"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/logradouro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="277dp"
+        android:layout_marginEnd="33dp"
+        android:autofillHints=""
+        android:elevation="2dp"
+        android:ems="10"
+        android:hint="@string/em_branco"
+        android:inputType="text"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/cpfLista"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="226dp"
+        android:autofillHints=""
+        android:elevation="2dp"
+        android:ems="10"
+        android:hint="@string/em_branco"
+        android:inputType="text"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewCpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="228dp"
+        android:elevation="2dp"
+        android:text="@string/textViewCpf" />
+
+    <TextView
+        android:id="@+id/textViewCid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="186dp"
+        android:elevation="2dp"
+        android:text="@string/textViewCid" />
+
+    <EditText
+        android:id="@+id/nomeLista"
+        android:layout_width="353dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="186dp"
+        android:elevation="2dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textViewSexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="227dp"
+        android:layout_marginEnd="165dp"
+        android:elevation="2dp"
+        android:text="@string/textViewSexo" />
+
+    <TextView
+        android:id="@+id/textViewLogra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="276dp"
+        android:elevation="2dp"
+
+        android:text="@string/textViewLogra" />
+
+    <TextView
+        android:id="@+id/subTitulo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginBottom="201dp"
+        android:elevation="2dp"
+        android:text="@string/subTitulo2"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/complemento"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="332dp"
+        android:autofillHints=""
+        android:elevation="2dp"
+        android:ems="10"
+        android:hint="@string/em_branco"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="361dp"
+        android:elevation="2dp"
+        android:text="@string/textViewN" />
+
+    <EditText
+        android:id="@+id/numero"
+        android:layout_width="79dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="332dp"
+        android:autofillHints=""
+        android:elevation="2dp"
+        android:ems="10"
+        android:hint="@string/em_branco"
+        android:inputType="number"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewCom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="186dp"
+        android:layout_marginBottom="362dp"
+        android:elevation="2dp"
+        android:text="@string/textViewCom" />
+
+    <EditText
+        android:id="@+id/cep"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="199dp"
+        android:layout_marginBottom="232dp"
+        android:elevation="2dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/bairro"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="232dp"
+        android:elevation="2dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/em_branco"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textViewBairro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="258dp"
+        android:elevation="2dp"
+        android:text="@string/textViewBairro" />
+
+    <TextView
+        android:id="@+id/textViewCep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="201dp"
+        android:layout_marginBottom="255dp"
+        android:elevation="2dp"
+        android:text="@string/textViewCep" />
+
+    <EditText
+        android:id="@+id/senhaLista"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="207dp"
+        android:layout_marginBottom="121dp"
+        android:autofillHints=""
+        android:elevation="2dp"
+        android:ems="10"
+        android:hint="@string/em_branco"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewLogin"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginBottom="158dp"
+        android:elevation="2dp"
+        android:text="@string/textViewLogin" />
+
+    <EditText
+        android:id="@+id/loginLista"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginBottom="121dp"
+        android:autofillHints=""
+        android:elevation="2dp"
+        android:ems="10"
+        android:hint="@string/em_branco"
+        android:inputType="text"
+        android:textColorHint="#757575"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="160dp"
+        android:elevation="2dp"
+        android:text="@string/textViewPass" />
+
+    <EditText
+        android:id="@+id/cidade"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="286dp"
+        android:elevation="2dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/em_branco"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/estado"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="286dp"
+        android:elevation="2dp"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="@string/em_branco"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textViewCidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginBottom="312dp"
+        android:elevation="2dp"
+        android:text="@string/textViewCidade" />
+
+    <TextView
+        android:id="@+id/textViewEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="312dp"
+        android:elevation="2dp"
+        android:text="@string/textViewEstado" />
+
+    <EditText
+        android:id="@+id/sexoLista"
+        android:layout_width="170dp"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="33dp"
+        android:autofillHints=""
+        android:elevation="2dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/em_branco"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+</RelativeLayout>

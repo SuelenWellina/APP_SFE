@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#007a37">
+
+
+    <View
+        android:id="@+id/fundo_login"
+        android:layout_width="wrap_content"
+        android:layout_height="562dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="88dp"
+        android:background="@drawable/canto_arredondado"
+        android:elevation="2dp" />
+
+    <RadioGroup
+        android:id="@+id/tipo_user"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="205dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:elevation="2dp">
+
+
+
+            <RadioButton
+                android:id="@+id/cidadao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cidadao"
+                android:textColor="#FFFFFF"
+                android:onClick="onRadioButtonClicked"
+                android:elevation="2dp"/>
+            <RadioButton
+                android:id="@+id/agente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/agente"
+                android:textColor="#FFFFFF"
+                android:onClick="onRadioButtonClicked"
+                android:elevation="2dp"/>
+
+            <RadioButton
+                android:id="@+id/admin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/admin"
+                android:textColor="#FFFFFF"
+                android:onClick="onRadioButtonClicked"
+                android:elevation="2dp"/>
+
+
+    </RadioGroup>
+        <ImageView
+
+            android:layout_width="89dp"
+            android:layout_height="73dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="163dp"
+            android:layout_marginTop="105dp"
+            android:layout_marginEnd="158dp"
+            android:background="@drawable/canto_arredondado_logo"
+            android:contentDescription="Imglogo"
+            android:elevation="2dp"
+            app:srcCompat="@drawable/logo_sfe3" />
+
+        <LinearLayout
+            android:id="@+id/layout_btlogar"
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="538dp"
+            android:layout_marginEnd="23dp"
+            android:elevation="2dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btCadastrar"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginBottom="0dp"
+                android:elevation="2dp"
+                android:insetLeft="0dp"
+                android:insetRight="0dp"
+                android:text="@string/btLogar"
+                android:textColor="#FFFFFF"
+
+                app:backgroundTint="#007a37"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/btBanco"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="0dp"
+                android:elevation="2dp"
+                android:insetLeft="0dp"
+                android:insetRight="0dp"
+                android:text="@string/btBanco"
+                android:textColor="#FFFFFF"
+
+                app:backgroundTint="#007a37"
+                tools:ignore="TextContrastCheck" />
+
+        </LinearLayout>
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="268dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="299dp"
+        android:layout_marginEnd="72dp"
+        android:autofillHints=""
+        android:elevation="2dp"
+        android:ems="10"
+        android:hint="@string/em_branco"
+        android:inputType="text"
+        android:text="@string/em_branco"
+        android:textColor="#FFFFFF"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/txtsenha"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="337dp"
+        android:elevation="2dp"
+        android:text="@string/txtsenha"
+
+
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/txtusuario"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="278dp"
+        android:elevation="2dp"
+        android:text="@string/txtusuario"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/link_redefinir"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="427dp"
+        android:layout_marginEnd="69dp"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:text="@string/link_redefinir"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="469dp"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:text="@string/cadastrar"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/senhaLista"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginBottom="318dp"
+        android:autofillHints=""
+
+        android:elevation="2dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    </RelativeLayout>
